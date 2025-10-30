@@ -21,10 +21,10 @@ export default function CategoryTabs({ categories, activeCategory, onCategoryCha
           <Button
             onClick={() => onCategoryChange("Все")}
             variant={activeCategory === "Все" ? "default" : "outline"}
-            className={`whitespace-nowrap ${
+            className={`whitespace-nowrap transition-all ${
               activeCategory === "Все"
-                ? "bg-accent text-accent-foreground hover:bg-accent/90"
-                : "border-border hover:bg-muted"
+                ? "bg-accent text-white hover:bg-accent/90"
+                : "border-border text-foreground hover:bg-accent hover:text-white"
             }`}
           >
             {t.allCategories}
@@ -34,10 +34,10 @@ export default function CategoryTabs({ categories, activeCategory, onCategoryCha
               key={category}
               onClick={() => onCategoryChange(category)}
               variant={activeCategory === category ? "default" : "outline"}
-              className={`whitespace-nowrap ${
+              className={`whitespace-nowrap transition-all ${
                 activeCategory === category
-                  ? "bg-accent text-accent-foreground hover:bg-accent/90"
-                  : "border-border hover:bg-muted"
+                  ? "bg-accent text-white hover:bg-accent/90"
+                  : "border-border text-foreground hover:bg-accent hover:text-white"
               }`}
             >
               {category}

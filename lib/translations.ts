@@ -44,7 +44,7 @@ export const translations = {
   uz: {
     portfolio: "Portfel",
     newProducts: "Yangi Mahsulotlar",
-    contacts: "Kontaktlar",
+    contacts: "Kontakt",
     requestQuote: "Taklif So'rash",
     address: "Manzil",
     search: "Mahsulotlarni qidirish...",

@@ -15,7 +15,7 @@ export default function LanguageSwitcher({ currentLanguage, onLanguageChange }: 
   const languages: { code: Language; label: string }[] = [
     { code: "ru", label: "РУ" },
     { code: "en", label: "EN" },
-    { code: "uz", label: "ОЗ" },
+    { code: "uz", label: "O'Z" },
   ]
 
   const currentLabel = languages.find((l) => l.code === currentLanguage)?.label
@@ -25,7 +25,7 @@ export default function LanguageSwitcher({ currentLanguage, onLanguageChange }: 
       <Button
         variant="outline"
         size="sm"
-        className="bg-transparent border-border hover:bg-accent/10 flex items-center gap-2"
+        className="bg-transparent border-border hover:bg-accent/10 hover:text-foreground flex items-center gap-2"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span className="text-xs font-semibold">{currentLabel}</span>
