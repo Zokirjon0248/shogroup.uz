@@ -46,7 +46,7 @@ export default function ProductDetailModal({ isOpen, onClose, product, language 
           {/* Header */}
           <div className="flex items-center justify-between p-4 sm:p-6 border-b border-border sticky top-0 bg-white z-10">
             <h2 className="text-xl sm:text-2xl font-bold pr-2 line-clamp-2">{product.name}</h2>
-            <button onClick={onClose} className="p-1 hover:bg-muted rounded-lg transition ">
+            <button onClick={onClose} className="p-1 hover:bg-muted rounded-lg transition bu">
               <X className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
           </div>

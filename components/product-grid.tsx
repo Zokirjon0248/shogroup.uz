@@ -116,7 +116,7 @@ export default function ProductGrid({ searchQuery, activeCategory, language }: P
                   onClick={() => handleProductImageClick(product)}
                 >
                   <img
-                    src={`/.jpg?height=200&width=200&query=${product.name}`}
+                    src={`/partner-logo-.jpg`}
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition"
                   />

@@ -40,7 +40,7 @@ export default function Header({ language, onLanguageChange }: HeaderProps) {
         <div className="flex items-center justify-between">
           {/* Logo va Desktop Navigation */}
           <div className="flex items-center gap-4 md:gap-8">
-            <h1 className="text-xl md:text-2xl font-bold text-primary">BMIX</h1>
+            <h1 className="text-xl md:text-2xl font-bold text-primary">Textnic pro</h1>
             <nav className="hidden md:flex gap-4 lg:gap-6 text-sm text-foreground">
               <button 
                 onClick={() => scrollToSection("portfolio")} 
